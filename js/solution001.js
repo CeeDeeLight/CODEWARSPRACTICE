@@ -1,6 +1,8 @@
-//You need to double the integer and return it.  CodewarsPractice.
+/*
+Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. 
+If the array does not contain any numbers then you should return 0. 
+codewars practice*/
 
-function doubleInteger(i) {
-  // i will be an integer. Double the integer and return it.
-  return i * 2;
-} 
+function sum(numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
